@@ -34,6 +34,7 @@ from pyteomics import mzml
 import io
 import time
 from io import StringIO, BytesIO
+import tempfile
 
 
 # Clean up any leftover figures or memory at the start of each run
