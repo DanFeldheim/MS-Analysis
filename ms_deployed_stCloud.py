@@ -9,7 +9,6 @@ Created on Thu Oct 30 15:38:25 2025
 # Imports
 import pandas as pd
 import numpy as np
-# from numpy.lib.stride_tricks import sliding_window_view
 import streamlit as st
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
@@ -577,7 +576,7 @@ if __name__ == '__main__':
     directory = '/Users/danfeldheim/Documents/ms_app/'
         
     # Use this for cloud
-    st.session_state['logo'] = 'mote_logo.png'
+    st.session_state['logo'] = 'logo-black.png'
     
     # Use this for local machine
     # st.session_state['logo'] = directory + 'logo-black.png'
